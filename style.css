@@ -1,0 +1,26 @@
+html, body { height: 100% }
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.canvas-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); */
+}
+
+.background {
+  background-color: #877c7c00;
+  /* background-image: image('../metro-YOY.png'); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
